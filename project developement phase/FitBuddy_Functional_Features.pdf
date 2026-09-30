@@ -1,0 +1,56 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1767 >>
+stream
+BT /F1 23 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Functional Features in the Solution) Tj ET
+BT /F1 11 Tf 50 701 Td (Number of functional features: 9) Tj ET
+BT /F1 13 Tf 50 654 Td (Feature list) Tj ET
+BT /F1 11 Tf 50 628 Td (1. User input) Tj ET
+BT /F1 10 Tf 50 609 Td (Enter name, age, weight, fitness goal, and preferred workout intensity.) Tj ET
+BT /F1 11 Tf 50 578 Td (2. Input validation) Tj ET
+BT /F1 10 Tf 50 559 Td (Check required fields and valid values before processing.) Tj ET
+BT /F1 11 Tf 50 528 Td (3. Personalized workout plan) Tj ET
+BT /F1 10 Tf 50 509 Td (Generate a structured 7-day workout plan based on submitted user details.) Tj ET
+BT /F1 11 Tf 50 478 Td (4. Daily workout and recovery details) Tj ET
+BT /F1 10 Tf 50 459 Td (Show daily activities with warm-up, exercise, and recovery guidance.) Tj ET
+BT /F1 11 Tf 50 428 Td (5. Nutrition or recovery tip) Tj ET
+BT /F1 10 Tf 50 409 Td (Provide a concise tip related to the user?s selected fitness goal.) Tj ET
+BT /F1 11 Tf 50 378 Td (6. Feedback-based plan update) Tj ET
+BT /F1 10 Tf 50 359 Td (Let the user request changes and generate a revised plan.) Tj ET
+BT /F1 11 Tf 50 328 Td (7. Plan storage and history) Tj ET
+BT /F1 10 Tf 50 309 Td (Save user details and preserve original and updated plan versions.) Tj ET
+BT /F1 11 Tf 50 278 Td (8. Results display) Tj ET
+BT /F1 10 Tf 50 259 Td (Present the generated plan and tip in a readable results page.) Tj ET
+BT /F1 11 Tf 50 228 Td (9. Coach/admin overview) Tj ET
+BT /F1 10 Tf 50 209 Td (Allow authorized staff to view users and their saved plan versions.) Tj ET
+BT /F1 10 Tf 50 155 Td (These nine features are summarized from the FitBuddy solution requirements.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy project documentation) Tj ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2130
+%%EOF

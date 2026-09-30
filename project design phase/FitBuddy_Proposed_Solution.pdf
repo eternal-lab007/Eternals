@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 3007 >>
+stream
+BT /F1 22 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 731 Td (Proposed Solution) Tj ET
+BT /F1 10 Tf 50 706 Td (A simple AI-assisted web app for creating and refining fitness plans) Tj ET
+BT /F1 13 Tf 50 670 Td (Solution overview) Tj ET
+BT /F1 10 Tf 50 647 Td (Build a responsive web application where a user enters basic profile details, a fitness) Tj ET
+BT /F1 10 Tf 50 631 Td (goal, and preferred intensity. The app generates a structured 7-day workout plan and) Tj ET
+BT /F1 10 Tf 50 615 Td (a short supporting nutrition or recovery tip. Users can submit feedback to request a) Tj ET
+BT /F1 10 Tf 50 599 Td (revised plan. Original and updated plans are stored for later review.) Tj ET
+BT /F1 13 Tf 50 563 Td (How it works) Tj ET
+BT /F1 10 Tf 50 540 Td (1. User completes a short form with name, age, weight, goal, and intensity.) Tj ET
+BT /F1 10 Tf 50 524 Td (2. FastAPI validates the submission and sends relevant context to the AI service.) Tj ET
+BT /F1 10 Tf 50 508 Td (3. Gemini generates the workout plan; a fast model generates a concise supporting tip.) Tj ET
+BT /F1 10 Tf 50 492 Td (4. The app saves the user and original plan in SQLite, then displays the result.) Tj ET
+BT /F1 10 Tf 50 476 Td (5. User submits feedback; the app retrieves the original plan and requests a revision.) Tj ET
+BT /F1 10 Tf 50 460 Td (6. The updated plan is saved separately and shown with the original retained.) Tj ET
+BT /F1 13 Tf 50 424 Td (Main components) Tj ET
+BT /F1 10 Tf 50 401 Td (Frontend: HTML, CSS, and Jinja2 templates for the input, result, and admin pages.) Tj ET
+BT /F1 10 Tf 50 385 Td (Backend: FastAPI routes for form handling, validation, AI calls, and page rendering.) Tj ET
+BT /F1 10 Tf 50 369 Td (AI: Gemini API for plan generation, feedback updates, and concise tips.) Tj ET
+BT /F1 10 Tf 50 353 Td (Storage: SQLite and SQLAlchemy for users and plan history.) Tj ET
+BT /F1 10 Tf 50 337 Td (Runtime: Python and Uvicorn for local development and serving.) Tj ET
+BT /F1 13 Tf 50 301 Td (First release priorities) Tj ET
+BT /F1 10 Tf 50 278 Td (1. Input form and validation.  2. Workout generation and results page.) Tj ET
+BT /F1 10 Tf 50 262 Td (3. Save original plans.  4. Feedback updates and plan history.) Tj ET
+BT /F1 10 Tf 50 246 Td (5. Nutrition/recovery tip.  6. Restricted coach/admin overview.) Tj ET
+BT /F1 13 Tf 50 210 Td (Responsible design) Tj ET
+BT /F1 10 Tf 50 187 Td (Collect only necessary details, protect API credentials, and restrict admin access.) Tj ET
+BT /F1 10 Tf 50 171 Td (Ask users to consider limitations and stop if an activity causes pain. Present generated) Tj ET
+BT /F1 10 Tf 50 155 Td (content as general fitness guidance, not diagnosis or medical advice.) Tj ET
+BT /F1 13 Tf 50 119 Td (Expected result) Tj ET
+BT /F1 10 Tf 50 96 Td (A clear starting routine users can understand, follow, and refine as their preferences change.) Tj ET
+BT /F1 8 Tf 50 50 Td (Proposed from the supplied FitBuddy project brief; validate requirements and AI output with users.) Tj ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3370
+%%EOF

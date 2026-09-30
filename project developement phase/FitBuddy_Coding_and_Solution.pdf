@@ -1,0 +1,113 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2698 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Coding and Solution Guide) Tj ET
+BT /F1 9 Tf 50 709 Td (Implementation blueprint based on the supplied FitBuddy project brief) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 696 m 562 696 l S
+BT /F1 13 Tf 50 670 Td (What the app should do) Tj ET
+BT /F1 10 Tf 50 648 Td (Collect user details, goal, and workout intensity; generate a 7-day workout plan) Tj ET
+BT /F1 10 Tf 50 632 Td (and a concise supporting tip; save the original plan; accept feedback; generate) Tj ET
+BT /F1 10 Tf 50 616 Td (and store an updated plan; display both versions in an authorized admin view.) Tj ET
+BT /F1 13 Tf 50 580 Td (Suggested code layout) Tj ET
+BT /F2 9 Tf 58 558 Td (app/main.py) Tj ET
+BT /F1 9 Tf 180 558 Td (Create FastAPI app and register routes.) Tj ET
+BT /F2 9 Tf 58 540 Td (app/routes.py) Tj ET
+BT /F1 9 Tf 180 540 Td (Handle pages, forms, validation, and responses.) Tj ET
+BT /F2 9 Tf 58 522 Td (app/gemini_generator.py) Tj ET
+BT /F1 9 Tf 220 522 Td (Generate structured workout plans.) Tj ET
+BT /F2 9 Tf 58 504 Td (app/gemini_flash_generator.py) Tj ET
+BT /F1 9 Tf 250 504 Td (Generate short nutrition/recovery tips.) Tj ET
+BT /F2 9 Tf 58 486 Td (app/updated_plan.py) Tj ET
+BT /F1 9 Tf 180 486 Td (Revise plans using feedback.) Tj ET
+BT /F2 9 Tf 58 468 Td (app/database.py) Tj ET
+BT /F1 9 Tf 180 468 Td (Save and retrieve users and plans.) Tj ET
+BT /F2 9 Tf 58 450 Td (app/models.py) Tj ET
+BT /F1 9 Tf 180 450 Td (Database models and input schemas.) Tj ET
+BT /F2 9 Tf 58 432 Td (templates/) Tj ET
+BT /F1 9 Tf 180 432 Td (index, result, and admin pages.) Tj ET
+BT /F1 13 Tf 50 391 Td (Build in this order) Tj ET
+BT /F1 10 Tf 50 369 Td (1. Create the environment and project folders; install the brief's dependencies.) Tj ET
+BT /F1 10 Tf 50 353 Td (2. Define user and plan database models; create and verify tables.) Tj ET
+BT /F1 10 Tf 50 337 Td (3. Build the input page and validate required fields and allowed intensity values.) Tj ET
+BT /F1 10 Tf 50 321 Td (4. Implement workout and tip generation as separate service functions.) Tj ET
+BT /F1 10 Tf 50 305 Td (5. Add routes to save and display the generated results.) Tj ET
+BT /F1 10 Tf 50 289 Td (6. Add feedback revision and preserve original and updated plans separately.) Tj ET
+BT /F1 10 Tf 50 273 Td (7. Add protected admin view; document setup and test the user flows.) Tj ET
+BT /F1 13 Tf 50 231 Td (Main user flow) Tj ET
+BT /F1 10 Tf 50 209 Td (Input form -> validate -> AI services -> save records -> render results) Tj ET
+BT /F1 10 Tf 50 193 Td (Feedback form -> load original plan -> AI revision -> save updated plan -> render) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy coding guide | Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2455 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Core Logic and Implementation Notes) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 710 m 562 710 l S
+BT /F1 13 Tf 50 682 Td (Plan generation logic) Tj ET
+BT /F2 9 Tf 58 659 Td (def create_plan(user):) Tj ET
+BT /F2 9 Tf 74 643 Td (profile = validate(user)) Tj ET
+BT /F2 9 Tf 74 627 Td (plan = generate_workout_plan(profile)) Tj ET
+BT /F2 9 Tf 74 611 Td (tip = generate_nutrition_tip(profile.goal)) Tj ET
+BT /F2 9 Tf 74 595 Td (save_user_and_original_plan(profile, plan)) Tj ET
+BT /F2 9 Tf 74 579 Td (return plan, tip) Tj ET
+BT /F1 10 Tf 58 555 Td (Use the function flow as a design guide; connect each step to your app's actual) Tj ET
+BT /F1 10 Tf 58 539 Td (FastAPI routes, Gemini SDK calls, and SQLAlchemy session management.) Tj ET
+BT /F1 13 Tf 50 503 Td (Feedback update logic) Tj ET
+BT /F2 9 Tf 58 480 Td (def revise_plan(user_id, feedback):) Tj ET
+BT /F2 9 Tf 74 464 Td (original = get_original_plan(user_id)) Tj ET
+BT /F2 9 Tf 74 448 Td (updated = update_workout_plan(original, feedback)) Tj ET
+BT /F2 9 Tf 74 432 Td (save_updated_plan(user_id, feedback, updated)) Tj ET
+BT /F2 9 Tf 74 416 Td (return updated) Tj ET
+BT /F1 13 Tf 50 380 Td (Implementation guidance) Tj ET
+BT /F1 10 Tf 50 357 Td (Keep AI prompts and API setup inside service modules, not duplicated in route code.) Tj ET
+BT /F1 10 Tf 50 341 Td (Validate age, weight, goal, intensity, and user ID before using or storing values.) Tj ET
+BT /F1 10 Tf 50 325 Td (Handle AI timeouts, empty responses, and database errors with clear user messages.) Tj ET
+BT /F1 10 Tf 50 309 Td (Keep the original plan unchanged; store feedback and each revision distinctly.) Tj ET
+BT /F1 10 Tf 50 293 Td (Read GOOGLE_API_KEY from environment configuration; exclude .env from Git.) Tj ET
+BT /F1 10 Tf 50 277 Td (Do not expose user records through the admin route without access checks.) Tj ET
+BT /F1 13 Tf 50 241 Td (Completion checklist) Tj ET
+BT /F1 10 Tf 50 218 Td (A valid user can generate a plan and tip; the results page displays them clearly.) Tj ET
+BT /F1 10 Tf 50 202 Td (Feedback revises a plan and preserves the original; records persist after restart.) Tj ET
+BT /F1 10 Tf 50 186 Td (Invalid input, unavailable AI service, and missing users produce helpful errors.) Tj ET
+BT /F1 10 Tf 50 170 Td (Admin access is restricted; README explains setup, key configuration, and routes.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy coding guide | Page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000259 00000 n 
+0000000395 00000 n 
+0000003145 00000 n 
+0000003281 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+5788
+%%EOF

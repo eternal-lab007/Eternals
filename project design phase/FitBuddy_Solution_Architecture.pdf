@@ -1,0 +1,71 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2838 >>
+stream
+BT /F1 22 Tf 28 560 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 28 535 Td (Solution Architecture) Tj ET
+BT /F1 9 Tf 28 515 Td (Proposed logical architecture for the first release) Tj ET
+BT /F1 12 Tf 28 458 Td (USER) Tj ET
+BT /F1 9 Tf 28 440 Td (Enters profile and goal) Tj ET
+BT /F1 9 Tf 28 426 Td (Views plan and tip) Tj ET
+BT /F1 9 Tf 28 412 Td (Sends feedback) Tj ET
+BT /F1 12 Tf 28 458 Td (WEB FRONTEND) Tj ET
+BT /F1 9 Tf 28 440 Td (HTML / CSS) Tj ET
+BT /F1 9 Tf 28 426 Td (Jinja2 templates) Tj ET
+BT /F1 9 Tf 28 412 Td (Input, results, admin) Tj ET
+BT /F1 12 Tf 28 458 Td (FASTAPI BACKEND) Tj ET
+BT /F1 9 Tf 28 440 Td (Routes and validation) Tj ET
+BT /F1 9 Tf 28 426 Td (Coordinates AI calls) Tj ET
+BT /F1 9 Tf 28 412 Td (Reads/writes records) Tj ET
+BT /F1 12 Tf 28 458 Td (GEMINI SERVICES) Tj ET
+BT /F1 9 Tf 28 440 Td (Workout generation) Tj ET
+BT /F1 9 Tf 28 426 Td (Plan revision from) Tj ET
+BT /F1 9 Tf 28 412 Td (user feedback) Tj ET
+BT /F1 9 Tf 28 398 Td (Goal-related tip) Tj ET
+BT /F1 12 Tf 28 458 Td (DATA STORE) Tj ET
+BT /F1 9 Tf 28 440 Td (SQLite database) Tj ET
+BT /F1 9 Tf 28 426 Td (SQLAlchemy ORM) Tj ET
+BT /F1 9 Tf 28 412 Td (Users and plan history) Tj ET
+BT /F1 12 Tf 28 458 Td (COACH / ADMIN) Tj ET
+BT /F1 9 Tf 28 440 Td (Authorized access to) Tj ET
+BT /F1 9 Tf 28 426 Td (user and plan overview) Tj ET
+BT /F1 10 Tf 28 320 Td (COMPONENT RESPONSIBILITIES) Tj ET
+BT /F1 10 Tf 28 297 Td (Frontend: collects user input and displays the generated or revised plan.) Tj ET
+BT /F1 10 Tf 28 281 Td (FastAPI: validates requests, coordinates AI and database operations, and renders templates.) Tj ET
+BT /F1 10 Tf 28 265 Td (Gemini: creates workout plans, revises plans using feedback, and produces concise tips.) Tj ET
+BT /F1 10 Tf 28 249 Td (SQLite: stores user information, original plans, feedback, and updated plan versions.) Tj ET
+BT /F1 10 Tf 28 233 Td (Admin page: reads saved user and plan records for authorized coach/admin review.) Tj ET
+BT /F1 10 Tf 28 197 Td (KEY DESIGN NOTES) Tj ET
+BT /F1 9 Tf 28 176 Td (Keep API credentials on the server in environment configuration. Restrict admin routes.) Tj ET
+BT /F1 9 Tf 28 160 Td (Validate input and handle AI/database errors with clear user messages. Preserve original plans.) Tj ET
+BT /F1 9 Tf 28 144 Td (The diagram is conceptual; exact modules and model names depend on implementation choices.) Tj ET
+BT /F1 8 Tf 28 32 Td (Based on the supplied FitBuddy project brief.) Tj ET
+0.25 0.38 0.55 RG 1.2 w 20 385 110 90 re S 145 385 125 90 re S 285 385 140 90 re S 440 385 130 90 re S 585 385 120 90 re S 720 427 m 760 427 l S 130 427 m 145 427 l S 270 427 m 285 427 l S 425 427 m 440 427 l S 570 427 m 585 427 l S 145 420 m 133 426 l 145 420 l 133 414 l S 285 420 m 273 426 l 285 420 l 273 414 l S 440 420 m 428 426 l 440 420 l 428 414 l S 585 420 m 573 426 l 585 420 l 573 414 l S
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3201
+%%EOF

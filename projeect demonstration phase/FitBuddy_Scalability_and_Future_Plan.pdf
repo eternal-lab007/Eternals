@@ -1,0 +1,93 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2154 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Scalability and Future Plan) Tj ET
+BT /F1 9 Tf 50 709 Td (A staged path from local prototype to a more reliable multi-user service) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 696 m 562 696 l S
+BT /F1 13 Tf 50 670 Td (Current starting point) Tj ET
+BT /F1 10 Tf 50 648 Td (The brief proposes FastAPI, Uvicorn, Gemini services, Jinja2, and SQLite with) Tj ET
+BT /F1 10 Tf 50 632 Td (SQLAlchemy. This stack suits a learning project and local prototype. Measure actual) Tj ET
+BT /F1 10 Tf 50 616 Td (usage and bottlenecks before changing the architecture.) Tj ET
+BT /F1 13 Tf 50 580 Td (Likely growth pressure points) Tj ET
+BT /F1 10 Tf 50 557 Td (AI calls: response time, rate limits, provider availability, and usage cost.) Tj ET
+BT /F1 10 Tf 50 541 Td (Database: concurrent writes, growing user history, and admin list queries.) Tj ET
+BT /F1 10 Tf 50 525 Td (Web app: slow requests if AI calls run synchronously in user-facing routes.) Tj ET
+BT /F1 10 Tf 50 509 Td (Operations: secrets, backups, access control, logs, and deployment monitoring.) Tj ET
+BT /F1 13 Tf 50 473 Td (Stage 1 - strengthen the prototype) Tj ET
+BT /F1 10 Tf 50 450 Td (Add input limits, explicit AI timeouts, helpful error handling, and structured logs.) Tj ET
+BT /F1 10 Tf 50 434 Td (Index user IDs and frequently filtered fields; paginate the admin results.) Tj ET
+BT /F1 10 Tf 50 418 Td (Keep API keys in environment/secret configuration; restrict admin routes.) Tj ET
+BT /F1 10 Tf 50 402 Td (Measure end-to-end, AI, and database latency separately.) Tj ET
+BT /F1 13 Tf 50 366 Td (Stage 2 - prepare for more users) Tj ET
+BT /F1 10 Tf 50 343 Td (Move to a managed relational database such as PostgreSQL when concurrent access,) Tj ET
+BT /F1 10 Tf 50 327 Td (backup, or deployment needs exceed what local SQLite can support.) Tj ET
+BT /F1 10 Tf 50 311 Td (Run the app behind a production ASGI/web server setup; externalize persistent files.) Tj ET
+BT /F1 10 Tf 50 295 Td (Use a background job queue for longer AI generation if users need non-blocking flows.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy scalability plan | Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2135 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Roadmap and Readiness Checks) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 710 m 562 710 l S
+BT /F1 13 Tf 50 682 Td (Stage 3 - improve product capability) Tj ET
+BT /F1 10 Tf 50 659 Td (Add account authentication and user-owned plan access.) Tj ET
+BT /F1 10 Tf 50 643 Td (Track plan revisions and user-approved progress measures.) Tj ET
+BT /F1 10 Tf 50 627 Td (Offer configurable goals, rest preferences, and accessibility options.) Tj ET
+BT /F1 10 Tf 50 611 Td (Add AI output checks and a clear way to report unsuitable suggestions.) Tj ET
+BT /F1 13 Tf 50 575 Td (Stage 4 - production operations) Tj ET
+BT /F1 10 Tf 50 552 Td (Automate deployment and database migrations; maintain tested backups.) Tj ET
+BT /F1 10 Tf 50 536 Td (Monitor availability, latency, error rates, resource use, and AI provider failures.) Tj ET
+BT /F1 10 Tf 50 520 Td (Set retention limits, data deletion procedures, and incident response steps.) Tj ET
+BT /F1 13 Tf 50 484 Td (When to scale - review evidence) Tj ET
+BT /F1 10 Tf 50 461 Td (Repeated slow responses under expected traffic; database locks or sustained high CPU.) Tj ET
+BT /F1 10 Tf 50 445 Td (Users waiting too long on AI calls; provider limits reached; backup/recovery gaps.) Tj ET
+BT /F1 10 Tf 50 429 Td (Choose the smallest change that addresses the measured bottleneck.) Tj ET
+BT /F1 13 Tf 50 393 Td (Success measures) Tj ET
+BT /F1 10 Tf 50 370 Td (Set target response times and error rates after a baseline and agree on expected load.) Tj ET
+BT /F1 10 Tf 50 354 Td (Track completion of plan generation, revision success, and user-reported usefulness.) Tj ET
+BT /F1 10 Tf 50 338 Td (Review costs per AI operation and resource use as adoption grows.) Tj ET
+BT /F1 13 Tf 50 302 Td (Guiding principle) Tj ET
+BT /F1 10 Tf 50 279 Td (Scale in response to evidence. Keep personal data private, preserve plan history,) Tj ET
+BT /F1 10 Tf 50 263 Td (and treat AI fitness content as general guidance rather than medical advice.) Tj ET
+BT /F1 8 Tf 50 45 Td (Future steps are proposals, not implemented capabilities or measured results. | Page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000259 00000 n 
+0000000395 00000 n 
+0000002601 00000 n 
+0000002737 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4924
+%%EOF

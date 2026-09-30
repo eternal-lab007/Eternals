@@ -1,0 +1,74 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 3041 >>
+stream
+BT /F1 22 Tf 35 560 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 35 535 Td (Data Flow Diagram) Tj ET
+BT /F1 9 Tf 35 515 Td (Level 1 view | Main data flow for workout creation, feedback, and coach review) Tj ET
+BT /F1 12 Tf 35 463 Td (USER) Tj ET
+BT /F1 9 Tf 35 445 Td (Details: name, age,) Tj ET
+BT /F1 9 Tf 35 431 Td (weight, goal, intensity) Tj ET
+BT /F1 9 Tf 35 417 Td (Feedback: requested) Tj ET
+BT /F1 9 Tf 35 403 Td (plan changes) Tj ET
+BT /F1 12 Tf 35 463 Td (WEB FORM) Tj ET
+BT /F1 9 Tf 35 445 Td (index.html) Tj ET
+BT /F1 9 Tf 35 431 Td (result.html) Tj ET
+BT /F1 9 Tf 35 417 Td (feedback form) Tj ET
+BT /F1 12 Tf 35 463 Td (FASTAPI APP) Tj ET
+BT /F1 9 Tf 35 445 Td (Routes validate input,) Tj ET
+BT /F1 9 Tf 35 431 Td (coordinate services,) Tj ET
+BT /F1 9 Tf 35 417 Td (render responses) Tj ET
+BT /F1 12 Tf 35 463 Td (AI SERVICES) Tj ET
+BT /F1 9 Tf 35 445 Td (Gemini Pro:) Tj ET
+BT /F1 9 Tf 35 431 Td (create/update plan) Tj ET
+BT /F1 9 Tf 35 417 Td (Gemini Flash:) Tj ET
+BT /F1 9 Tf 35 403 Td (nutrition/recovery tip) Tj ET
+BT /F1 12 Tf 35 463 Td (SQLITE DATABASE) Tj ET
+BT /F1 9 Tf 35 445 Td (Users and plan data) Tj ET
+BT /F1 9 Tf 35 431 Td (Original and updated) Tj ET
+BT /F1 9 Tf 35 417 Td (workout plans) Tj ET
+BT /F1 12 Tf 35 463 Td (COACH / ADMIN) Tj ET
+BT /F1 9 Tf 35 445 Td (Requests all users) Tj ET
+BT /F1 9 Tf 35 431 Td (and saved plan records) Tj ET
+BT /F1 10 Tf 35 365 Td (FLOW 1 - GENERATE A PLAN) Tj ET
+BT /F1 9 Tf 35 344 Td (1. User submits details through the web form to FastAPI.) Tj ET
+BT /F1 9 Tf 35 328 Td (2. FastAPI validates fields and sends goal/intensity context to Gemini Pro for a 7-day plan.) Tj ET
+BT /F1 9 Tf 35 312 Td (3. FastAPI sends the goal to Gemini Flash for a concise nutrition or recovery tip.) Tj ET
+BT /F1 9 Tf 35 296 Td (4. FastAPI stores user details and the original plan in SQLite, then renders the result page.) Tj ET
+BT /F1 10 Tf 35 257 Td (FLOW 2 - UPDATE WITH FEEDBACK) Tj ET
+BT /F1 9 Tf 35 236 Td (1. User sends feedback and user ID. FastAPI retrieves the original plan from SQLite.) Tj ET
+BT /F1 9 Tf 35 220 Td (2. FastAPI sends the plan and feedback to Gemini Pro; the revised plan is saved in SQLite.) Tj ET
+BT /F1 9 Tf 35 204 Td (3. FastAPI returns the updated result page to the user.) Tj ET
+BT /F1 10 Tf 35 165 Td (FLOW 3 - COACH REVIEW) Tj ET
+BT /F1 9 Tf 35 144 Td (Coach/admin requests the user overview. FastAPI reads user and plan records from SQLite) Tj ET
+BT /F1 9 Tf 35 128 Td (and renders the admin page. Access should be restricted to authorized administrators.) Tj ET
+BT /F1 8 Tf 35 32 Td (Conceptual diagram based on the supplied FitBuddy project brief; implementation details may vary.) Tj ET
+0.25 0.38 0.55 RG 1.2 w 25 390 115 95 re S 165 390 115 95 re S 305 390 130 95 re S 460 390 135 95 re S 620 390 140 95 re S 635 295 m 755 295 l S 35 390 m 35 390 l S 140 437 m 165 437 l S 280 437 m 305 437 l S 435 437 m 460 437 l S 595 437 m 620 437 l S 306 435 m 290 443 l 306 435 l 290 427 l S 461 435 m 445 443 l 461 435 l 445 427 l S 621 435 m 605 443 l 621 435 l 605 427 l S
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3404
+%%EOF

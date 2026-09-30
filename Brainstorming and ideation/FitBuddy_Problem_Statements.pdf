@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2861 >>
+stream
+BT /F1 22 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 731 Td (Problem Statements) Tj ET
+BT /F1 11 Tf 50 703 Td (Project: AI Fitness Plan Generator using Gemini models) Tj ET
+BT /F1 13 Tf 50 661 Td (Core problem statement) Tj ET
+BT /F1 10 Tf 50 638 Td (People who want to improve fitness often struggle to turn broad goals into a) Tj ET
+BT /F1 10 Tf 50 622 Td (realistic weekly routine. Generic plans may not match their experience, preferred) Tj ET
+BT /F1 10 Tf 50 606 Td (effort, or changing needs, and users may not know how to adjust them.) Tj ET
+BT /F1 10 Tf 50 578 Td (FitBuddy will provide a personalized 7-day workout plan based on user-provided) Tj ET
+BT /F1 10 Tf 50 562 Td (details and let users request practical changes through feedback.) Tj ET
+BT /F1 13 Tf 50 521 Td (Supporting problem statements) Tj ET
+BT /F1 11 Tf 50 495 Td (1. Difficulty getting started) Tj ET
+BT /F1 10 Tf 50 475 Td (Users may have a goal such as weight loss, muscle gain, or general wellness but) Tj ET
+BT /F1 10 Tf 50 459 Td (lack a clear day-by-day plan. FitBuddy should organize workouts into simple steps.) Tj ET
+BT /F1 11 Tf 50 425 Td (2. Plans do not reflect individual preferences) Tj ET
+BT /F1 10 Tf 50 405 Td (A routine that ignores a user?s stated age, weight, goal, or preferred intensity) Tj ET
+BT /F1 10 Tf 50 389 Td (may feel unsuitable. FitBuddy should use these inputs to tailor its suggestions.) Tj ET
+BT /F1 11 Tf 50 355 Td (3. Plans can become unsuitable over time) Tj ET
+BT /F1 10 Tf 50 335 Td (A user?s needs or preferences can change, but a fixed plan is difficult to adapt.) Tj ET
+BT /F1 10 Tf 50 319 Td (FitBuddy should accept feedback and generate a revised plan.) Tj ET
+BT /F1 11 Tf 50 285 Td (4. Fitness planning lacks convenient guidance) Tj ET
+BT /F1 10 Tf 50 265 Td (Users may need a small nutrition or recovery reminder alongside exercise. FitBuddy) Tj ET
+BT /F1 10 Tf 50 249 Td (should offer a concise, goal-related tip to complement the workout plan.) Tj ET
+BT /F1 11 Tf 50 215 Td (5. Coaches need a simple way to review plans) Tj ET
+BT /F1 10 Tf 50 195 Td (A coach overseeing several users may find it difficult to review saved plans in one) Tj ET
+BT /F1 10 Tf 50 179 Td (place. FitBuddy should provide an admin view of users and their plan versions.) Tj ET
+BT /F1 13 Tf 50 139 Td (Primary users and intended outcome) Tj ET
+BT /F1 10 Tf 50 117 Td (Primary users: people seeking a basic personalized fitness routine; secondary users:) Tj ET
+BT /F1 10 Tf 50 101 Td (coaches or administrators reviewing plans. The intended outcome is a clear starting) Tj ET
+BT /F1 10 Tf 50 85 Td (plan that users can understand and refine. The app is a planning aid, not a medical) Tj ET
+BT /F1 10 Tf 50 69 Td (assessment or a substitute for professional advice.) Tj ET
+BT /F1 8 Tf 50 38 Td (Based on the FitBuddy project brief supplied by the user.) Tj ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3224
+%%EOF

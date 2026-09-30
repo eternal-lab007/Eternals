@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2644 >>
+stream
+BT /F1 22 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 731 Td (Project Planning) Tj ET
+BT /F1 10 Tf 50 706 Td (Phased plan aligned with the project brief | Adjust dates to match your team schedule) Tj ET
+BT /F1 13 Tf 50 671 Td (1. Brainstorming and ideation) Tj ET
+BT /F1 10 Tf 50 648 Td (Agree on target users, user needs, core features, and success measures.) Tj ET
+BT /F1 10 Tf 50 632 Td (Deliverables: empathy map, journey map, prioritized feature list.) Tj ET
+BT /F1 13 Tf 50 598 Td (2. Requirement analysis) Tj ET
+BT /F1 10 Tf 50 575 Td (Confirm functional, data, interface, security, and quality requirements.) Tj ET
+BT /F1 10 Tf 50 559 Td (Deliverables: problem statement, requirements, acceptance checks.) Tj ET
+BT /F1 13 Tf 50 525 Td (3. Project design) Tj ET
+BT /F1 10 Tf 50 502 Td (Design the user flow, page wireframes, database model, and system architecture.) Tj ET
+BT /F1 10 Tf 50 486 Td (Deliverables: flow diagram, architecture, schema, page sketches.) Tj ET
+BT /F1 13 Tf 50 452 Td (4. Project planning) Tj ET
+BT /F1 10 Tf 50 429 Td (Assign team roles, sequence tasks, identify dependencies, and track risks.) Tj ET
+BT /F1 10 Tf 50 413 Td (Deliverables: task board, timeline, responsibility list, risk log.) Tj ET
+BT /F1 13 Tf 50 379 Td (5. Project development) Tj ET
+BT /F1 10 Tf 50 356 Td (Build the form and validation; plan generation; storage; feedback updates; templates;) Tj ET
+BT /F1 10 Tf 50 340 Td (and admin view. Keep API credentials in environment configuration.) Tj ET
+BT /F1 10 Tf 50 324 Td (Deliverables: working app, source code, setup guide.) Tj ET
+BT /F1 13 Tf 50 290 Td (6. Project testing) Tj ET
+BT /F1 10 Tf 50 267 Td (Check valid/invalid inputs, AI failures, saving and retrieval, feedback updates,) Tj ET
+BT /F1 10 Tf 50 251 Td (mobile layout, and admin access.) Tj ET
+BT /F1 10 Tf 50 235 Td (Deliverables: test cases, results, fixes log.) Tj ET
+BT /F1 13 Tf 50 201 Td (7. Project documentation) Tj ET
+BT /F1 10 Tf 50 178 Td (Document setup, technology, routes, database fields, AI prompts, and limitations.) Tj ET
+BT /F1 10 Tf 50 162 Td (Deliverables: README, user guide, technical notes.) Tj ET
+BT /F1 13 Tf 50 128 Td (8. Project demonstration) Tj ET
+BT /F1 10 Tf 50 105 Td (Prepare sample inputs, show plan generation and a feedback revision, explain value,) Tj ET
+BT /F1 10 Tf 50 89 Td (and present the final output.) Tj ET
+BT /F1 10 Tf 50 61 Td (Deliverables: demo video, public repository link, phase-wise project files.) Tj ET
+BT /F1 8 Tf 50 32 Td (Suggested sequencing: complete phases 1-4 before implementation; iterate through development, testing, and documentation before the demo.) Tj ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3007
+%%EOF

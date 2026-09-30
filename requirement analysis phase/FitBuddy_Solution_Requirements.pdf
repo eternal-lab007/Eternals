@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 3290 >>
+stream
+BT /F1 22 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 731 Td (Solution Requirements) Tj ET
+BT /F1 10 Tf 50 706 Td (Purpose: define what the first version of the AI fitness plan generator must do.) Tj ET
+BT /F1 13 Tf 50 671 Td (1. Functional requirements) Tj ET
+BT /F1 10 Tf 50 648 Td (FR1. The system shall let a user enter name, age, weight, fitness goal, and workout intensity.) Tj ET
+BT /F1 10 Tf 50 632 Td (FR2. The system shall validate required fields and accepted values before processing.) Tj ET
+BT /F1 10 Tf 50 616 Td (FR3. The system shall generate a structured 7-day workout plan using the submitted details.) Tj ET
+BT /F1 10 Tf 50 600 Td (FR4. Each plan should include daily activities and suitable warm-up/recovery guidance.) Tj ET
+BT /F1 10 Tf 50 584 Td (FR5. The system shall provide a concise nutrition or recovery tip related to the goal.) Tj ET
+BT /F1 10 Tf 50 568 Td (FR6. The user shall be able to submit feedback to request a plan change.) Tj ET
+BT /F1 10 Tf 50 552 Td (FR7. The system shall save user details and the original and updated plan versions.) Tj ET
+BT /F1 10 Tf 50 536 Td (FR8. The system shall show the generated or updated plan in a readable results page.) Tj ET
+BT /F1 10 Tf 50 520 Td (FR9. An authorized coach/admin shall be able to view users and their plan versions.) Tj ET
+BT /F1 13 Tf 50 486 Td (2. Data requirements) Tj ET
+BT /F1 10 Tf 50 463 Td (Store a user ID, name, age, weight, goal, intensity, original plan, feedback, updated plan,) Tj ET
+BT /F1 10 Tf 50 447 Td (and relevant timestamps. Use a consistent user ID and preserve the original plan.) Tj ET
+BT /F1 13 Tf 50 413 Td (3. Interface requirements) Tj ET
+BT /F1 10 Tf 50 390 Td (Provide a simple input page, readable results page, feedback form, and coach/admin view.) Tj ET
+BT /F1 10 Tf 50 374 Td (Label fields clearly, show validation errors, and support common desktop and mobile screens.) Tj ET
+BT /F1 13 Tf 50 340 Td (4. Security and privacy requirements) Tj ET
+BT /F1 10 Tf 50 317 Td (Protect the Gemini API key in environment configuration; never expose it in pages or source control.) Tj ET
+BT /F1 10 Tf 50 301 Td (Restrict the coach/admin view to authorized users. Collect only necessary personal data,) Tj ET
+BT /F1 10 Tf 50 285 Td (explain its use, and protect stored records from unauthorized access.) Tj ET
+BT /F1 13 Tf 50 251 Td (5. Quality and reliability requirements) Tj ET
+BT /F1 10 Tf 50 228 Td (Show a clear message if AI generation fails; avoid losing submitted data where possible.) Tj ET
+BT /F1 10 Tf 50 212 Td (Keep outputs organized and easy to scan. Handle invalid input and missing records safely.) Tj ET
+BT /F1 10 Tf 50 196 Td (Use safe, general fitness language; invite users to adapt activities to their abilities.) Tj ET
+BT /F1 13 Tf 50 162 Td (Acceptance checks) Tj ET
+BT /F1 10 Tf 50 139 Td (A valid submission produces and displays a 7-day plan and tip; invalid fields show guidance.) Tj ET
+BT /F1 10 Tf 50 123 Td (Feedback produces a revised plan while retaining the original; an authorized admin can review) Tj ET
+BT /F1 10 Tf 50 107 Td (saved records. The API key is not visible in the browser or public repository.) Tj ET
+BT /F1 8 Tf 50 50 Td (Derived from the supplied FitBuddy brief. These requirements describe a proposed first release.) Tj ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3653
+%%EOF

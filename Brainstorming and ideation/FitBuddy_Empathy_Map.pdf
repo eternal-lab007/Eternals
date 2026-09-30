@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2316 >>
+stream
+BT /F1 22 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 731 Td (Empathy Map) Tj ET
+BT /F1 10 Tf 50 706 Td (Brainstorming and ideation | Primary user: someone starting or maintaining a fitness routine) Tj ET
+BT /F1 13 Tf 50 653 Td (SAYS) Tj ET
+BT /F1 10 Tf 50 628 Td ("I want to get fitter, but I need a plan I can follow.") Tj ET
+BT /F1 10 Tf 50 610 Td ("Can I make it easier or add more cardio?") Tj ET
+BT /F1 10 Tf 50 592 Td ("I am not sure what to do each day.") Tj ET
+BT /F1 13 Tf 50 653 Td (THINKS) Tj ET
+BT /F1 10 Tf 50 628 Td (Will this plan fit my goals and current ability?) Tj ET
+BT /F1 10 Tf 50 610 Td (How do I know whether the exercises are right for me?) Tj ET
+BT /F1 10 Tf 50 592 Td (Can I change the plan if it feels too hard or too easy?) Tj ET
+BT /F1 13 Tf 50 475 Td (DOES) Tj ET
+BT /F1 10 Tf 50 450 Td (Enters basic details, a fitness goal, and preferred intensity.) Tj ET
+BT /F1 10 Tf 50 432 Td (Reviews a weekly plan and looks for clear exercise instructions.) Tj ET
+BT /F1 10 Tf 50 414 Td (Sends feedback when the routine needs to change.) Tj ET
+BT /F1 13 Tf 50 475 Td (FEELS) Tj ET
+BT /F1 10 Tf 50 450 Td (Motivated to improve, but unsure where to begin.) Tj ET
+BT /F1 10 Tf 50 432 Td (Overwhelmed by generic or complicated advice.) Tj ET
+BT /F1 10 Tf 50 414 Td (More confident when the next step is clear and manageable.) Tj ET
+BT /F1 13 Tf 50 333 Td (NEEDS) Tj ET
+BT /F1 10 Tf 50 309 Td (A simple starting routine matched to the stated goal and intensity.) Tj ET
+BT /F1 10 Tf 50 291 Td (Clear daily instructions, rest/recovery guidance, and an easy way to refine.) Tj ET
+BT /F1 10 Tf 50 273 Td (Respectful, non-judgmental language and reminders to adapt to personal limits.) Tj ET
+BT /F1 13 Tf 50 231 Td (IDEATION INSIGHTS) Tj ET
+BT /F1 10 Tf 50 207 Td (Prioritize a short input form, readable 7-day plan, and feedback-based updates.) Tj ET
+BT /F1 10 Tf 50 189 Td (Keep tips concise. Ask about limitations before suggesting exercise, and make) Tj ET
+BT /F1 10 Tf 50 173 Td (clear that AI suggestions are general guidance that may need personal adjustment.) Tj ET
+BT /F1 8 Tf 50 55 Td (Persona is an ideation assumption based on the FitBuddy project brief, not user research.) Tj ET
+0.25 0.38 0.55 RG 1.2 w 306 405 m 306 675 l S 50 540 m 562 540 l S 50 363 m 562 363 l S 50 250 m 562 250 l S
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2679
+%%EOF

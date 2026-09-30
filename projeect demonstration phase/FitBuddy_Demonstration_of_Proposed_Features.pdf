@@ -1,0 +1,91 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1864 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Demonstration of Proposed Features) Tj ET
+BT /F1 9 Tf 50 709 Td (Demo walkthrough and speaking notes | Use synthetic sample data) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 696 m 562 696 l S
+BT /F1 13 Tf 50 670 Td (Demo purpose) Tj ET
+BT /F1 10 Tf 50 648 Td (Show how a user creates a workout plan, reviews supporting guidance, requests) Tj ET
+BT /F1 10 Tf 50 632 Td (a change, and how an authorized coach reviews saved plan versions.) Tj ET
+BT /F1 13 Tf 50 596 Td (Sample demo profile) Tj ET
+BT /F1 10 Tf 50 573 Td (Name: Alex Demo   |   User ID: DEMO-001   |   Age: 28   |   Weight: 72 kg) Tj ET
+BT /F1 10 Tf 50 557 Td (Goal: muscle gain   |   Intensity: medium) Tj ET
+BT /F1 13 Tf 50 521 Td (Walkthrough) Tj ET
+BT /F1 11 Tf 50 497 Td (1. Home page and input form) Tj ET
+BT /F1 10 Tf 66 477 Td (Say: FitBuddy collects basic details and the user's goal and preferred intensity.) Tj ET
+BT /F1 10 Tf 66 461 Td (Show: clearly labeled form fields and required-field validation.) Tj ET
+BT /F1 11 Tf 50 429 Td (2. Generate a 7-day plan) Tj ET
+BT /F1 10 Tf 66 409 Td (Say: the app uses submitted preferences to request a structured weekly routine.) Tj ET
+BT /F1 10 Tf 66 393 Td (Show: daily workout focus, warm-up, exercises, and recovery guidance.) Tj ET
+BT /F1 11 Tf 50 361 Td (3. Show the nutrition or recovery tip) Tj ET
+BT /F1 10 Tf 66 341 Td (Say: this concise tip complements the selected fitness goal.) Tj ET
+BT /F1 10 Tf 66 325 Td (Show: a practical, general suggestion below the workout plan.) Tj ET
+BT /F1 11 Tf 50 293 Td (4. Submit feedback) Tj ET
+BT /F1 10 Tf 66 273 Td (Enter: Please add more cardio and include an extra rest day.) Tj ET
+BT /F1 10 Tf 66 257 Td (Say: user feedback can guide a revision when preferences change.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy feature demonstration | Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1823 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Expected Results and Demo Checklist) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 710 m 562 710 l S
+BT /F1 11 Tf 50 682 Td (5. Review the revised plan) Tj ET
+BT /F1 10 Tf 66 659 Td (Show: revised schedule reflects the feedback, and the original plan remains available.) Tj ET
+BT /F1 11 Tf 50 627 Td (6. Open the coach/admin overview) Tj ET
+BT /F1 10 Tf 66 604 Td (Show: the demo user and original/updated plan versions in the authorized view.) Tj ET
+BT /F1 13 Tf 50 565 Td (Feature-to-evidence checklist) Tj ET
+BT /F1 10 Tf 50 542 Td (Input and validation: submit valid data; show a missing-field message.) Tj ET
+BT /F1 10 Tf 50 526 Td (Plan generation: show all seven days and readable workout guidance.) Tj ET
+BT /F1 10 Tf 50 510 Td (Supporting tip: show a concise goal-related suggestion.) Tj ET
+BT /F1 10 Tf 50 494 Td (Feedback: submit a change request and display the revised plan.) Tj ET
+BT /F1 10 Tf 50 478 Td (Plan history: confirm original and updated versions are both retained.) Tj ET
+BT /F1 10 Tf 50 462 Td (Admin overview: show records only to authorized staff.) Tj ET
+BT /F1 13 Tf 50 422 Td (Closing statement) Tj ET
+BT /F1 10 Tf 50 399 Td (FitBuddy turns a goal into a structured starting plan and provides a feedback loop) Tj ET
+BT /F1 10 Tf 50 383 Td (for refining it. AI output is general fitness guidance and should be adapted to) Tj ET
+BT /F1 10 Tf 50 367 Td (the user's abilities; it is not medical advice.) Tj ET
+BT /F1 13 Tf 50 327 Td (Before recording) Tj ET
+BT /F1 10 Tf 50 304 Td (Use synthetic data, hide API keys, verify the server is running, and keep the demo) Tj ET
+BT /F1 10 Tf 50 288 Td (focused on the user flow. Do not display real users' personal information.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy feature demonstration | Page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000259 00000 n 
+0000000395 00000 n 
+0000002311 00000 n 
+0000002447 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4322
+%%EOF

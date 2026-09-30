@@ -1,0 +1,94 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1839 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Project Execution Guide) Tj ET
+BT /F1 9 Tf 50 709 Td (How to set up, run, and demonstrate the FastAPI project locally) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 696 m 562 696 l S
+BT /F1 13 Tf 50 670 Td (Prerequisites) Tj ET
+BT /F1 10 Tf 50 648 Td (Install Python 3, pip, and Git. Obtain a Gemini API key for AI features.) Tj ET
+BT /F1 10 Tf 50 632 Td (The project brief lists FastAPI, Uvicorn, Jinja2, SQLAlchemy, python-multipart,) Tj ET
+BT /F1 10 Tf 50 616 Td (and the Google Generative AI SDK as dependencies.) Tj ET
+BT /F1 13 Tf 50 580 Td (Set up the project) Tj ET
+BT /F1 10 Tf 50 557 Td (1. Open a terminal in the project folder.) Tj ET
+BT /F2 9 Tf 62 538 Td (python -m venv venv) Tj ET
+BT /F2 9 Tf 62 522 Td (venv\\Scripts\\activate) Tj ET
+BT /F2 9 Tf 62 506 Td (pip install -r requirements.txt) Tj ET
+BT /F1 10 Tf 50 482 Td (On macOS/Linux, activate with: source venv/bin/activate) Tj ET
+BT /F1 10 Tf 50 466 Td (If no requirements.txt exists, install the dependencies listed in the project brief.) Tj ET
+BT /F1 13 Tf 50 430 Td (Configure the API key) Tj ET
+BT /F1 10 Tf 50 407 Td (Set GOOGLE_API_KEY in your environment or use a local .env file loaded by the app.) Tj ET
+BT /F1 10 Tf 50 391 Td (Never commit a real key to GitHub. Add .env to .gitignore.) Tj ET
+BT /F2 9 Tf 62 366 Td (GOOGLE_API_KEY=your_key_here) Tj ET
+BT /F1 13 Tf 50 326 Td (Start the application) Tj ET
+BT /F1 10 Tf 50 303 Td (Use the module path that matches your repository. The project brief gives examples:) Tj ET
+BT /F2 9 Tf 62 284 Td (uvicorn app.main:app --reload) Tj ET
+BT /F2 9 Tf 62 268 Td (uvicorn main:app --reload) Tj ET
+BT /F1 10 Tf 50 244 Td (Run only the command matching where the FastAPI app object is defined.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy project execution guide | Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1900 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Verify and Demonstrate) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 710 m 562 710 l S
+BT /F1 13 Tf 50 682 Td (Open in a browser) Tj ET
+BT /F2 9 Tf 62 659 Td (http://127.0.0.1:8000) Tj ET
+BT /F1 10 Tf 210 659 Td (FitBuddy home page) Tj ET
+BT /F2 9 Tf 62 641 Td (http://127.0.0.1:8000/docs) Tj ET
+BT /F1 10 Tf 210 641 Td (FastAPI interactive API docs) Tj ET
+BT /F1 13 Tf 50 604 Td (Demo flow) Tj ET
+BT /F1 10 Tf 50 581 Td (1. Enter sample user details, a fitness goal, and workout intensity.) Tj ET
+BT /F1 10 Tf 50 565 Td (2. Generate and review the 7-day workout plan and nutrition/recovery tip.) Tj ET
+BT /F1 10 Tf 50 549 Td (3. Submit feedback such as adding cardio or extra rest days.) Tj ET
+BT /F1 10 Tf 50 533 Td (4. Show the updated plan and confirm the original plan remains saved.) Tj ET
+BT /F1 10 Tf 50 517 Td (5. Open the authorized admin view and review user/plan records.) Tj ET
+BT /F1 13 Tf 50 481 Td (Quick checks if something fails) Tj ET
+BT /F1 10 Tf 50 458 Td (Server will not start: confirm environment activation, dependencies, and app import path.) Tj ET
+BT /F1 10 Tf 50 442 Td (AI call fails: confirm API key, network access, and provider/model availability.) Tj ET
+BT /F1 10 Tf 50 426 Td (Template not found: confirm templates folder path and template filenames.) Tj ET
+BT /F1 10 Tf 50 410 Td (Database error: confirm SQLite path is writable and tables are initialized.) Tj ET
+BT /F1 13 Tf 50 374 Td (Before sharing) Tj ET
+BT /F1 10 Tf 50 351 Td (Check the public repository contains source, requirements, README, and phase documents.) Tj ET
+BT /F1 10 Tf 50 335 Td (Remove secrets and personal test data. Use synthetic details in the demo.) Tj ET
+BT /F1 10 Tf 50 319 Td (This guide explains local execution; it is not a compiled Windows executable.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy project execution guide | Page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000259 00000 n 
+0000000395 00000 n 
+0000002286 00000 n 
+0000002422 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4374
+%%EOF

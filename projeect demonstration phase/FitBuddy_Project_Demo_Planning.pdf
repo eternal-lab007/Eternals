@@ -1,0 +1,59 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2212 >>
+stream
+BT /F1 23 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Project Demo Planning) Tj ET
+BT /F1 10 Tf 50 706 Td (Plan for a clear, reliable demonstration of the proposed FitBuddy features) Tj ET
+BT /F1 13 Tf 50 669 Td (Demo objective) Tj ET
+BT /F1 10 Tf 50 646 Td (Explain the problem, show how a user generates a 7-day plan, demonstrate a feedback) Tj ET
+BT /F1 10 Tf 50 630 Td (revision, and summarize how saved plans support coach review.) Tj ET
+BT /F1 13 Tf 50 594 Td (Suggested 6-minute agenda) Tj ET
+BT /F1 11 Tf 50 568 Td (0:00-0:40 | Introduction) Tj ET
+BT /F1 10 Tf 50 548 Td (State project name, purpose, target user, and the problem being addressed.) Tj ET
+BT /F1 11 Tf 50 516 Td (0:40-1:20 | Solution overview) Tj ET
+BT /F1 10 Tf 50 496 Td (Introduce FastAPI, Gemini, Jinja2, and SQLite and explain the user journey.) Tj ET
+BT /F1 11 Tf 50 464 Td (1:20-2:10 | Enter user details) Tj ET
+BT /F1 10 Tf 50 444 Td (Use synthetic demo profile data; show validation and submit the form.) Tj ET
+BT /F1 11 Tf 50 412 Td (2:10-3:20 | Generate and review plan) Tj ET
+BT /F1 10 Tf 50 392 Td (Show the 7-day workout plan, daily guidance, and nutrition/recovery tip.) Tj ET
+BT /F1 11 Tf 50 360 Td (3:20-4:30 | Submit feedback) Tj ET
+BT /F1 10 Tf 50 340 Td (Request more cardio and an extra rest day; display the revised plan.) Tj ET
+BT /F1 11 Tf 50 308 Td (4:30-5:10 | Review saved records) Tj ET
+BT /F1 10 Tf 50 288 Td (Show the original and updated plans in the authorized admin view.) Tj ET
+BT /F1 11 Tf 50 256 Td (5:10-6:00 | Benefits and closing) Tj ET
+BT /F1 10 Tf 50 236 Td (Summarize convenience, personalization, limitations, and next steps.) Tj ET
+BT /F1 13 Tf 50 200 Td (Presenter roles) Tj ET
+BT /F1 10 Tf 50 177 Td (Presenter 1: introduction and problem. Presenter 2: live application walkthrough.) Tj ET
+BT /F1 10 Tf 50 161 Td (Presenter 3: architecture, benefits, limitations, and closing. Adjust for team size.) Tj ET
+BT /F1 13 Tf 50 125 Td (Demo profile) Tj ET
+BT /F1 10 Tf 50 102 Td (Alex Demo, DEMO-001, age 28, weight 72 kg, goal muscle gain, intensity medium.) Tj ET
+BT /F1 8 Tf 50 48 Td (Timing is a suggested plan. Use sample data only and adapt to the actual working application.) Tj ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2575
+%%EOF

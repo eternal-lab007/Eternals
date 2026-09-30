@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2799 >>
+stream
+BT /F1 24 Tf 50 760 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 733 Td (Brainstorming & Idea Prioritization) Tj ET
+BT /F1 13 Tf 50 695 Td (Project goal) Tj ET
+BT /F1 10 Tf 50 675 Td (Create a simple web app that turns a person?s fitness goal and preferences into a useful) Tj ET
+BT /F1 10 Tf 50 661 Td (7-day workout plan, then lets them refine it with feedback.) Tj ET
+BT /F1 13 Tf 50 627 Td (Brainstormed ideas) Tj ET
+BT /F1 10 Tf 50 607 Td (1. Personalized 7-day workout plan based on goal, age, weight, and intensity.) Tj ET
+BT /F1 10 Tf 50 591 Td (2. Clear daily workout details: warm-up, exercises, sets/reps, and recovery.) Tj ET
+BT /F1 10 Tf 50 575 Td (3. Feedback form to request changes and generate an updated plan.) Tj ET
+BT /F1 10 Tf 50 559 Td (4. Short goal-related nutrition or recovery tip.) Tj ET
+BT /F1 10 Tf 50 543 Td (5. Save user details and keep original and updated plans.) Tj ET
+BT /F1 10 Tf 50 527 Td (6. Coach/admin page to review users and their plans.) Tj ET
+BT /F1 10 Tf 50 511 Td (7. Mobile-friendly pages with simple forms and readable results.) Tj ET
+BT /F1 13 Tf 50 475 Td (Prioritization \(1 = low, 5 = high\)) Tj ET
+BT /F1 10 Tf 50 451 Td (Idea                                      Impact   Ease   Priority) Tj ET
+BT /F1 10 Tf 50 431 Td (Personalized workout plan                  5       4      1) Tj ET
+BT /F1 10 Tf 50 413 Td (Feedback-based plan update                 5       3      2) Tj ET
+BT /F1 10 Tf 50 395 Td (Save original and updated plans            4       4      3) Tj ET
+BT /F1 10 Tf 50 377 Td (Nutrition/recovery tip                     3       5      4) Tj ET
+BT /F1 10 Tf 50 359 Td (Admin/coach overview                       3       3      5) Tj ET
+BT /F1 10 Tf 50 341 Td (Mobile-friendly interface                  4       4      6) Tj ET
+BT /F1 13 Tf 50 305 Td (Recommended MVP) Tj ET
+BT /F1 10 Tf 50 285 Td (Build first: input form, AI workout generation, plan display, and database saving.) Tj ET
+BT /F1 10 Tf 50 269 Td (Next: feedback-based updates and a nutrition tip. Add the admin view after the) Tj ET
+BT /F1 10 Tf 50 255 Td (main user journey works.) Tj ET
+BT /F1 13 Tf 50 219 Td (Why this order?) Tj ET
+BT /F1 10 Tf 50 199 Td (The workout plan is the app?s main value. Saving plans enables follow-up changes.) Tj ET
+BT /F1 10 Tf 50 183 Td (Feedback makes the plan personal over time. Tips add value at low effort; the) Tj ET
+BT /F1 10 Tf 50 167 Td (admin page supports coaches but is not essential for the first user test.) Tj ET
+BT /F1 9 Tf 50 126 Td (Safety note: ask about limitations or injuries and remind users to adapt or stop) Tj ET
+BT /F1 9 Tf 50 112 Td (if they feel pain. Keep health advice general and encourage professional guidance.) Tj ET
+BT /F1 8 Tf 50 62 Td (Based on the FitBuddy project brief supplied by the user.) Tj ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3162
+%%EOF

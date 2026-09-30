@@ -1,0 +1,118 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2794 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 730 Td (Code Layout, Readability and Reusability) Tj ET
+BT /F1 9 Tf 50 709 Td (Development guidance based on the supplied FitBuddy project brief) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 696 m 562 696 l S
+BT /F1 13 Tf 50 670 Td (Why organize the code?) Tj ET
+BT /F1 10 Tf 50 648 Td (FitBuddy connects web pages, FastAPI routes, Gemini calls, and SQLite storage.) Tj ET
+BT /F1 10 Tf 50 632 Td (Keeping these responsibilities in clear modules makes changes easier to find,) Tj ET
+BT /F1 10 Tf 50 616 Td (review, explain, and reuse across plan generation and feedback updates.) Tj ET
+BT /F1 13 Tf 50 580 Td (Suggested project structure) Tj ET
+BT /F2 9 Tf 58 558 Td (fitbuddy/) Tj ET
+BT /F2 9 Tf 74 544 Td (app/) Tj ET
+BT /F2 9 Tf 90 530 Td (__init__.py) Tj ET
+BT /F2 9 Tf 90 516 Td (main.py) Tj ET
+BT /F2 9 Tf 90 502 Td (routes.py) Tj ET
+BT /F2 9 Tf 90 488 Td (gemini_generator.py) Tj ET
+BT /F2 9 Tf 90 474 Td (gemini_flash_generator.py) Tj ET
+BT /F2 9 Tf 90 460 Td (updated_plan.py) Tj ET
+BT /F2 9 Tf 90 446 Td (database.py) Tj ET
+BT /F2 9 Tf 90 432 Td (models.py) Tj ET
+BT /F2 9 Tf 74 418 Td (templates/) Tj ET
+BT /F2 9 Tf 90 404 Td (index.html, result.html, all_users.html) Tj ET
+BT /F2 9 Tf 74 390 Td (static/) Tj ET
+BT /F2 9 Tf 90 376 Td (css/, images/) Tj ET
+BT /F2 9 Tf 74 362 Td (requirements.txt, .env.example, README.md) Tj ET
+BT /F1 13 Tf 300 558 Td (Module responsibilities) Tj ET
+BT /F1 9 Tf 300 536 Td (main.py: create FastAPI app, mount static files,) Tj ET
+BT /F1 9 Tf 300 522 Td (include routes, and configure templates.) Tj ET
+BT /F1 9 Tf 300 500 Td (routes.py: validate form data, call services,) Tj ET
+BT /F1 9 Tf 300 486 Td (coordinate storage, and render templates.) Tj ET
+BT /F1 9 Tf 300 464 Td (gemini_generator.py: create 7-day workouts.) Tj ET
+BT /F1 9 Tf 300 442 Td (gemini_flash_generator.py: create short tips.) Tj ET
+BT /F1 9 Tf 300 420 Td (updated_plan.py: revise a saved plan with feedback.) Tj ET
+BT /F1 9 Tf 300 398 Td (database.py: save and retrieve user/plan records.) Tj ET
+BT /F1 9 Tf 300 376 Td (models.py: define SQLAlchemy tables and input schemas.) Tj ET
+BT /F1 13 Tf 50 319 Td (Readable code practices) Tj ET
+BT /F1 10 Tf 50 297 Td (Use descriptive names: generate_workout_plan, save_original_plan, get_user_by_id.) Tj ET
+BT /F1 10 Tf 50 281 Td (Keep functions focused; each should do one clear job and return a predictable result.) Tj ET
+BT /F1 10 Tf 50 265 Td (Use consistent formatting, short blocks, and clear error messages.) Tj ET
+BT /F1 10 Tf 50 249 Td (Add comments for important decisions, not to restate obvious code.) Tj ET
+BT /F1 10 Tf 50 233 Td (Keep HTML layout separate from Python logic; use Jinja2 for dynamic values.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy development guide | Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2678 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 50 730 Td (Reusable Patterns and Quality Checks) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 710 m 562 710 l S
+BT /F1 13 Tf 50 682 Td (Reuse common behavior) Tj ET
+BT /F1 10 Tf 50 659 Td (Keep prompt construction in one function per task. Pass user goal, intensity, and) Tj ET
+BT /F1 10 Tf 50 643 Td (relevant context as parameters instead of duplicating prompt text in routes.) Tj ET
+BT /F1 10 Tf 50 621 Td (Use shared helpers for Gemini configuration, database sessions, validation, and) Tj ET
+BT /F1 10 Tf 50 605 Td (template context. Avoid repeating API setup or SQL queries in multiple handlers.) Tj ET
+BT /F1 10 Tf 50 583 Td (Keep the page templates focused: common navigation and styling can live in a) Tj ET
+BT /F1 10 Tf 50 567 Td (shared base template or CSS file.) Tj ET
+BT /F1 13 Tf 50 531 Td (Example route flow) Tj ET
+BT /F2 9 Tf 58 508 Td (@router.post("/generate-workout")) Tj ET
+BT /F2 9 Tf 58 492 Td (def generate_workout(...):) Tj ET
+BT /F2 9 Tf 74 476 Td (user = validate_user_input(...)) Tj ET
+BT /F2 9 Tf 74 460 Td (plan = generate_workout_plan(user)) Tj ET
+BT /F2 9 Tf 74 444 Td (tip = generate_nutrition_tip(user.goal)) Tj ET
+BT /F2 9 Tf 74 428 Td (save_user_and_plan(user, plan)) Tj ET
+BT /F2 9 Tf 74 412 Td (return render_result(user, plan, tip)) Tj ET
+BT /F1 13 Tf 50 374 Td (Keep interfaces consistent) Tj ET
+BT /F1 10 Tf 50 351 Td (Use clear inputs and outputs between routes, AI functions, and database helpers.) Tj ET
+BT /F1 10 Tf 50 335 Td (For example, workout generation should receive a validated user profile and) Tj ET
+BT /F1 10 Tf 50 319 Td (return a plan string or structured plan. Handle failures at the route boundary.) Tj ET
+BT /F1 13 Tf 50 283 Td (Security and maintainability) Tj ET
+BT /F1 10 Tf 50 260 Td (Read GOOGLE_API_KEY from environment configuration; never hard-code or commit it.) Tj ET
+BT /F1 10 Tf 50 244 Td (Keep .env out of GitHub and provide .env.example with placeholder names only.) Tj ET
+BT /F1 10 Tf 50 228 Td (Do not trust a submitted user_id for private records without verifying access.) Tj ET
+BT /F1 10 Tf 50 212 Td (Keep original plans when saving revisions; return helpful errors if AI or storage fails.) Tj ET
+BT /F1 13 Tf 50 176 Td (Before submitting) Tj ET
+BT /F1 10 Tf 50 153 Td (Check file names, imports, and setup instructions match the actual project structure.) Tj ET
+BT /F1 10 Tf 50 137 Td (Confirm each route has one responsibility and repeated logic uses shared helpers.) Tj ET
+BT /F1 10 Tf 50 121 Td (Run through create, view, feedback update, and admin flows; review errors and logs.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy development guide | Page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000259 00000 n 
+0000000395 00000 n 
+0000003241 00000 n 
+0000003377 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6107
+%%EOF

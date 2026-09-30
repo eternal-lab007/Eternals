@@ -1,0 +1,100 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2249 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Performance Testing Plan) Tj ET
+BT /F1 9 Tf 50 709 Td (Proposed test plan based on the supplied FitBuddy project brief) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 696 m 562 696 l S
+BT /F1 13 Tf 50 670 Td (Purpose) Tj ET
+BT /F1 10 Tf 50 648 Td (Check that FitBuddy remains responsive and reliable while users submit profile) Tj ET
+BT /F1 10 Tf 50 632 Td (details, generate plans, request revisions, and view saved records.) Tj ET
+BT /F1 13 Tf 50 596 Td (What to measure) Tj ET
+BT /F1 10 Tf 50 574 Td (Response time: median and 95th percentile for each user action.) Tj ET
+BT /F1 10 Tf 50 558 Td (Throughput: successful requests per second or minute.) Tj ET
+BT /F1 10 Tf 50 542 Td (Reliability: error rate, timeouts, and failed AI/database calls.) Tj ET
+BT /F1 10 Tf 50 526 Td (Resources: CPU, memory, database size, and connection usage.) Tj ET
+BT /F1 10 Tf 50 510 Td (AI behavior: provider latency, rate limits, and failed/empty responses.) Tj ET
+BT /F1 13 Tf 50 474 Td (Suggested first-release targets - revise after baseline measurement) Tj ET
+BT /F1 10 Tf 50 452 Td (Non-AI page loads: p95 at or below 1 second under light test load.) Tj ET
+BT /F1 10 Tf 50 436 Td (App processing excluding AI wait: p95 at or below 500 ms.) Tj ET
+BT /F1 10 Tf 50 420 Td (Successful requests excluding provider failures: at least 99% in a short load run.) Tj ET
+BT /F1 10 Tf 50 404 Td (AI request latency: measure and report separately; it depends on external service.) Tj ET
+BT /F1 13 Tf 50 368 Td (Test scenarios) Tj ET
+BT /F1 10 Tf 50 346 Td (Home and form: load pages and submit valid and invalid data.) Tj ET
+BT /F1 10 Tf 50 330 Td (Workout generation: submit concurrent users and record AI and end-to-end latency.) Tj ET
+BT /F1 10 Tf 50 314 Td (Feedback update: retrieve a saved plan, request a revision, and save the new version.) Tj ET
+BT /F1 10 Tf 50 298 Td (Admin view: read a growing user/plan list and monitor database query time.) Tj ET
+BT /F1 10 Tf 50 282 Td (Failure handling: simulate slow/unavailable AI service and verify bounded waits and) Tj ET
+BT /F1 10 Tf 50 266 Td (clear errors, without losing saved original plans.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy performance plan | Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2514 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Test Execution and Reporting) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 710 m 562 710 l S
+BT /F1 13 Tf 50 682 Td (Test types) Tj ET
+BT /F1 10 Tf 50 659 Td (Baseline: one user at a time to establish normal response times.) Tj ET
+BT /F1 10 Tf 50 643 Td (Load: increase gradually to the expected demo or initial user traffic.) Tj ET
+BT /F1 10 Tf 50 627 Td (Stress: increase beyond expected load to identify the failure point and recovery.) Tj ET
+BT /F1 10 Tf 50 611 Td (Soak: maintain modest traffic to detect leaks or slow degradation.) Tj ET
+BT /F1 13 Tf 50 575 Td (Safe test procedure) Tj ET
+BT /F1 10 Tf 50 552 Td (1. Use a local/staging environment and synthetic test accounts only.) Tj ET
+BT /F1 10 Tf 50 536 Td (2. Record app version, machine, database size, AI model, and test settings.) Tj ET
+BT /F1 10 Tf 50 520 Td (3. Warm up, run each scenario at set concurrency, then repeat for consistency.) Tj ET
+BT /F1 10 Tf 50 504 Td (4. Separate AI provider wait from app, template, and database processing time.) Tj ET
+BT /F1 10 Tf 50 488 Td (5. Stop if errors rise sharply or provider limits are approached.) Tj ET
+BT /F1 13 Tf 50 452 Td (Example load profile) Tj ET
+BT /F1 10 Tf 50 429 Td (Start with 1 user; ramp to 5, then 10 concurrent users for a short run.) Tj ET
+BT /F1 10 Tf 50 413 Td (These are example development loads, not a production capacity promise.) Tj ET
+BT /F1 13 Tf 50 377 Td (Report for each run) Tj ET
+BT /F1 10 Tf 50 354 Td (Scenario and concurrency; request count; median/p95 latency; throughput; error rate.) Tj ET
+BT /F1 10 Tf 50 338 Td (AI latency and failures; CPU/memory; database timing; observations and next actions.) Tj ET
+BT /F1 10 Tf 50 322 Td (Compare results with the proposed targets and previous baseline.) Tj ET
+BT /F1 13 Tf 50 286 Td (Likely improvement areas) Tj ET
+BT /F1 10 Tf 50 263 Td (Use database indexes for lookup fields; avoid repeated queries and oversized results.) Tj ET
+BT /F1 10 Tf 50 247 Td (Set explicit AI timeouts and handle rate limits; keep secrets out of logs.) Tj ET
+BT /F1 10 Tf 50 231 Td (Do not cache personalized plans across users. Cache only safe, non-personal assets.) Tj ET
+BT /F1 10 Tf 50 215 Td (Record measurements before optimizing; retest after each material change.) Tj ET
+BT /F1 13 Tf 50 179 Td (Status) Tj ET
+BT /F1 10 Tf 50 156 Td (This document is a test plan. No performance tests or results are claimed.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy performance plan | Page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000259 00000 n 
+0000000395 00000 n 
+0000002696 00000 n 
+0000002832 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+5398
+%%EOF

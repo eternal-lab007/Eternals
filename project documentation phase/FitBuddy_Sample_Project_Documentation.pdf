@@ -1,0 +1,97 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2192 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Sample Project Documentation) Tj ET
+BT /F1 9 Tf 50 709 Td (AI Fitness Plan Generator using Gemini models | Draft sample based on project brief) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 696 m 562 696 l S
+BT /F1 13 Tf 50 670 Td (1. Project overview) Tj ET
+BT /F1 10 Tf 50 648 Td (FitBuddy is a web application concept that helps users create and refine a basic) Tj ET
+BT /F1 10 Tf 50 632 Td (7-day workout plan. It uses user-provided fitness goals and preferred intensity) Tj ET
+BT /F1 10 Tf 50 616 Td (to personalize suggestions, with a short nutrition or recovery tip.) Tj ET
+BT /F1 13 Tf 50 580 Td (2. Problem and proposed solution) Tj ET
+BT /F1 10 Tf 50 557 Td (Problem: People may have a fitness goal but lack a clear starting routine. Generic) Tj ET
+BT /F1 10 Tf 50 541 Td (plans can be difficult to follow or adjust as preferences change.) Tj ET
+BT /F1 10 Tf 50 519 Td (Solution: Provide a structured weekly plan, accept user feedback, and generate an) Tj ET
+BT /F1 10 Tf 50 503 Td (updated plan while keeping the original version for reference.) Tj ET
+BT /F1 13 Tf 50 467 Td (3. Objectives) Tj ET
+BT /F1 10 Tf 50 444 Td (Make fitness planning easier to start; tailor workouts to submitted preferences;) Tj ET
+BT /F1 10 Tf 50 428 Td (support revisions; save plan history; give coaches an authorized overview.) Tj ET
+BT /F1 13 Tf 50 392 Td (4. Main functional features) Tj ET
+BT /F1 10 Tf 50 369 Td (1. User form and input validation.  2. Personalized 7-day workout plan.) Tj ET
+BT /F1 10 Tf 50 353 Td (3. Daily activity and recovery details.  4. Goal-related nutrition/recovery tip.) Tj ET
+BT /F1 10 Tf 50 337 Td (5. Feedback-based plan update.  6. Save original and updated plan versions.) Tj ET
+BT /F1 10 Tf 50 321 Td (7. Readable results page.  8. Coach/admin user and plan overview.) Tj ET
+BT /F1 13 Tf 50 285 Td (5. Intended users) Tj ET
+BT /F1 10 Tf 50 262 Td (Primary: people seeking a basic fitness routine. Secondary: coaches or administrators) Tj ET
+BT /F1 10 Tf 50 246 Td (reviewing user plans. The product is a planning aid, not medical advice.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy sample documentation | Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2124 >>
+stream
+BT /F1 23 Tf 50 755 Td (FitBuddy) Tj ET
+BT /F1 17 Tf 50 730 Td (Design, Setup, and Quality) Tj ET
+0.20 0.36 0.52 RG 1.5 w 50 710 m 562 710 l S
+BT /F1 13 Tf 50 682 Td (6. Technology and architecture) Tj ET
+BT /F1 10 Tf 50 659 Td (Frontend: HTML, CSS, and Jinja2 templates. Backend: Python and FastAPI.) Tj ET
+BT /F1 10 Tf 50 643 Td (AI: Gemini API for workout creation, plan revision, and short tips.) Tj ET
+BT /F1 10 Tf 50 627 Td (Data: SQLite with SQLAlchemy. Local server: Uvicorn.) Tj ET
+BT /F1 10 Tf 50 605 Td (Flow: browser form -> FastAPI -> AI service and SQLite -> rendered result page.) Tj ET
+BT /F1 13 Tf 50 569 Td (7. Data and privacy) Tj ET
+BT /F1 10 Tf 50 546 Td (Expected records include user details, goal, intensity, original plan, feedback,) Tj ET
+BT /F1 10 Tf 50 530 Td (updated plan, and timestamps. Collect only what the app needs, protect API keys,) Tj ET
+BT /F1 10 Tf 50 514 Td (and restrict the admin view to authorized users.) Tj ET
+BT /F1 13 Tf 50 478 Td (8. Local setup and use) Tj ET
+BT /F2 9 Tf 58 455 Td (python -m venv venv) Tj ET
+BT /F2 9 Tf 58 439 Td (venv\\Scripts\\activate) Tj ET
+BT /F2 9 Tf 58 423 Td (pip install -r requirements.txt) Tj ET
+BT /F2 9 Tf 58 407 Td (uvicorn app.main:app --reload) Tj ET
+BT /F1 10 Tf 240 407 Td (Use the import path that matches the app.) Tj ET
+BT /F1 10 Tf 50 383 Td (Configure GOOGLE_API_KEY outside source control. Open 127.0.0.1:8000 in a browser.) Tj ET
+BT /F1 13 Tf 50 347 Td (9. Testing plan) Tj ET
+BT /F1 10 Tf 50 324 Td (Check valid/invalid form inputs, plan and tip generation, database persistence,) Tj ET
+BT /F1 10 Tf 50 308 Td (feedback updates, original plan retention, admin access, and error handling.) Tj ET
+BT /F1 13 Tf 50 272 Td (10. Limitations and future work) Tj ET
+BT /F1 10 Tf 50 249 Td (AI suggestions may be inaccurate and depend on external service availability.) Tj ET
+BT /F1 10 Tf 50 233 Td (Future work: authentication, stronger safety preferences, progress tracking, and) Tj ET
+BT /F1 10 Tf 50 217 Td (deployment beyond a local development environment.) Tj ET
+BT /F1 8 Tf 50 45 Td (FitBuddy sample documentation | Page 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000259 00000 n 
+0000000395 00000 n 
+0000002639 00000 n 
+0000002775 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4951
+%%EOF

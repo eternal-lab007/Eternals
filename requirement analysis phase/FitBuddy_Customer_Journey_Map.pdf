@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 3556 >>
+stream
+BT /F1 22 Tf 35 560 Td (FitBuddy) Tj ET
+BT /F1 16 Tf 35 535 Td (Customer Journey Map) Tj ET
+BT /F1 9 Tf 35 515 Td (Primary user: a person who wants a clear, personalized fitness routine | Ideation assumption; validate with users) Tj ET
+BT /F1 12 Tf 35 478 Td (1. START) Tj ET
+BT /F1 9 Tf 35 458 Td (Wants to improve) Tj ET
+BT /F1 9 Tf 35 444 Td (fitness; unsure where) Tj ET
+BT /F1 9 Tf 35 430 Td (to begin.) Tj ET
+BT /F1 9 Tf 35 405 Td (Touchpoint: home page) Tj ET
+BT /F1 9 Tf 35 391 Td (and project description.) Tj ET
+BT /F1 9 Tf 35 361 Td (Feeling: curious,) Tj ET
+BT /F1 9 Tf 35 347 Td (uncertain.) Tj ET
+BT /F1 9 Tf 35 317 Td (Opportunity: explain) Tj ET
+BT /F1 9 Tf 35 303 Td (what FitBuddy does.) Tj ET
+BT /F1 12 Tf 35 478 Td (2. ENTER DETAILS) Tj ET
+BT /F1 9 Tf 35 458 Td (Shares basic details,) Tj ET
+BT /F1 9 Tf 35 444 Td (goal, and workout) Tj ET
+BT /F1 9 Tf 35 430 Td (intensity.) Tj ET
+BT /F1 9 Tf 35 405 Td (Touchpoint: input form.) Tj ET
+BT /F1 9 Tf 35 391 Td (Feeling: hopeful,) Tj ET
+BT /F1 9 Tf 35 377 Td (possibly cautious.) Tj ET
+BT /F1 9 Tf 35 347 Td (Opportunity: keep the) Tj ET
+BT /F1 9 Tf 35 333 Td (form short; explain) Tj ET
+BT /F1 9 Tf 35 319 Td (why details are needed.) Tj ET
+BT /F1 12 Tf 35 478 Td (3. GET PLAN) Tj ET
+BT /F1 9 Tf 35 458 Td (Submits the form and) Tj ET
+BT /F1 9 Tf 35 444 Td (reviews a 7-day plan) Tj ET
+BT /F1 9 Tf 35 430 Td (and practical tip.) Tj ET
+BT /F1 9 Tf 35 405 Td (Touchpoint: results page.) Tj ET
+BT /F1 9 Tf 35 391 Td (Feeling: motivated,) Tj ET
+BT /F1 9 Tf 35 377 Td (may need clarity.) Tj ET
+BT /F1 9 Tf 35 347 Td (Opportunity: organize) Tj ET
+BT /F1 9 Tf 35 333 Td (days clearly; include) Tj ET
+BT /F1 9 Tf 35 319 Td (rest and safe guidance.) Tj ET
+BT /F1 12 Tf 35 478 Td (4. TRY IT) Tj ET
+BT /F1 9 Tf 35 458 Td (Follows the routine) Tj ET
+BT /F1 9 Tf 35 444 Td (and notices what fits) Tj ET
+BT /F1 9 Tf 35 430 Td (or feels difficult.) Tj ET
+BT /F1 9 Tf 35 405 Td (Touchpoint: saved plan.) Tj ET
+BT /F1 9 Tf 35 391 Td (Feeling: engaged or) Tj ET
+BT /F1 9 Tf 35 377 Td (frustrated.) Tj ET
+BT /F1 9 Tf 35 347 Td (Opportunity: make) Tj ET
+BT /F1 9 Tf 35 333 Td (exercises readable;) Tj ET
+BT /F1 9 Tf 35 319 Td (support plan access.) Tj ET
+BT /F1 12 Tf 35 478 Td (5. REFINE) Tj ET
+BT /F1 9 Tf 35 458 Td (Shares feedback and) Tj ET
+BT /F1 9 Tf 35 444 Td (reviews the revised) Tj ET
+BT /F1 9 Tf 35 430 Td (plan.) Tj ET
+BT /F1 9 Tf 35 405 Td (Touchpoint: feedback) Tj ET
+BT /F1 9 Tf 35 391 Td (form and updated result.) Tj ET
+BT /F1 9 Tf 35 377 Td (Feeling: heard, hopeful.) Tj ET
+BT /F1 9 Tf 35 347 Td (Opportunity: make edits) Tj ET
+BT /F1 9 Tf 35 333 Td (easy; show what changed) Tj ET
+BT /F1 9 Tf 35 319 Td (and retain plan history.) Tj ET
+BT /F1 10 Tf 35 271 Td (USER NEEDS ALONG THE JOURNEY) Tj ET
+BT /F1 9 Tf 35 251 Td (A clear starting point  |  Relevant suggestions  |  Easy-to-follow plan  |  Simple feedback loop  |  Confidence and control) Tj ET
+BT /F1 10 Tf 35 218 Td (SUCCESS INDICATORS TO VALIDATE) Tj ET
+BT /F1 9 Tf 35 198 Td (Can users complete the form? Do they understand the plan? Can they find and use feedback?) Tj ET
+BT /F1 9 Tf 35 184 Td (Do revised plans feel more suitable? Track completion, questions, and drop-off during user testing.) Tj ET
+BT /F1 8 Tf 35 32 Td (Based on the FitBuddy project brief. Journey stages and feelings are hypotheses, not research findings.) Tj ET
+0.25 0.38 0.55 RG 1 w 20 290 m 772 290 l S 20 495 m 772 495 l S 20 380 m 772 380 l S 20 440 m 772 440 l S 170 300 m 170 500 l S 320 300 m 320 500 l S 470 300 m 470 500 l S 620 300 m 620 500 l S
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3919
+%%EOF
